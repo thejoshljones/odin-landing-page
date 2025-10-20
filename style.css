@@ -1,0 +1,65 @@
+* {
+    font-family: Roboto;
+
+/* Sections */
+}
+header, .hero, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+}
+header, .hero, .info, .q_section, footer {
+    width: 800px;
+}
+header{
+    display: flex;
+}
+.hero {
+    display: flex;
+}
+.info {
+
+}
+.action {
+
+}
+.q_section {
+    background-color: #E5E7EB;
+}
+/* Header parts */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.link_container{
+display: flex;
+
+}
+.link{
+
+}
+
+/* Para styles */
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+img{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    width: 360px;
+}
+.summ {
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
