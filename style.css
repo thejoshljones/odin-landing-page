@@ -3,12 +3,12 @@
 
 /* Sections */
 }
-header, .hero, footer {
+header, .hero, footer{
     background-color: #1F2937;
     color: #F9FAF8;
 
 }
-header, .hero, .info, .q_section, footer {
+header, .hero, .info, .action, .q_section, footer{
     width: 800px;
 }
 header{
@@ -18,7 +18,7 @@ header{
     padding: 0px 20px 10px 20px;
     box-sizing: border-box;
 }
-.hero {
+.hero{
     display: flex;
     padding: 10px 20px 20px 20px;
     box-sizing: border-box;
@@ -31,11 +31,13 @@ header{
 .action{
 
 }
-.q_section {
+.q_section{
     background-color: #E5E7EB;
+    padding: 10px 20px 20px 20px;
+    box-sizing: border-box;
 }
-/* Header parts */
-.logo {
+/* Header/hero parts */
+.logo{
     font-size: 24px;
     font-weight: 700;
 }
@@ -44,24 +46,15 @@ header{
     width: 250px;
     justify-content: space-between;
 }
-.link{
-
-}
-/* Information parts */
-h2 {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    text-align: center;
-
-.subtext{
-    display: flex;
-}
-/* Para styles */
 h1 {
     font-size: 48px;
     font-weight: 900;
 }
+
+.summ{
+    font-size: 18px;
+}
+.link{
 
 }
 img{
@@ -69,13 +62,45 @@ img{
     margin: 0px 0px 0px 0px;
     width: 360px;
 }
-.summ {
-    font-size: 18px;
+/* Information parts */
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
 }
+.refer_line{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
 
-.quote {
+}
+.info_refer_container{
+    width: 150px;
+    
+}
+.rounded{
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.subtext{
+    text-align: center;
+    width: px;
+}
+/* Quote parts */
+.quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     font-weight: 200;
 }
+.thor{
+    text-align: right;
+    font-weight: bold;
+}
+/* Call to action parts */
