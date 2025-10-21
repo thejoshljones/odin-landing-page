@@ -1,7 +1,24 @@
 * {
     font-family: Roboto;
+}
+/* Wraps */
+.blue_wrap{
+    background-color: #1F2937;
+    width: 100%;
+    margin: auto;
+    justify-items: center;
+}
+.grey_wrap{
+    background-color: #E5E7EB;
+    width: 100%;
+    margin: auto;
+    justify-items: center;
+}
 
 /* Sections */
+body{
+    margin: auto;
+    justify-items: center;
 }
 header, .hero, footer{
     background-color: #1F2937;
@@ -131,3 +148,4 @@ h2 {
     border-width: 2px;
     height: 30px;
 }
+
