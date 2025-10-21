@@ -13,14 +13,22 @@ header, .hero, .info, .q_section, footer {
 }
 header{
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 20px 10px 20px;
+    box-sizing: border-box;
 }
 .hero {
     display: flex;
-}
-.info {
+    padding: 10px 20px 20px 20px;
+    box-sizing: border-box;
 
 }
-.action {
+.info{
+    padding: 10px 20px 20px 20px;
+    box-sizing: border-box;
+}
+.action{
 
 }
 .q_section {
@@ -32,22 +40,29 @@ header{
     font-weight: 700;
 }
 .link_container{
-display: flex;
-
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
 }
 .link{
 
 }
+/* Information parts */
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
 
+.subtext{
+    display: flex;
+}
 /* Para styles */
 h1 {
     font-size: 48px;
     font-weight: 900;
 }
-h2 {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+
 }
 img{
     display: flex;
@@ -63,3 +78,4 @@ img{
     font-style: italic;
     color: #1F2937;
     font-weight: 200;
+}
