@@ -8,7 +8,7 @@ header, .hero, footer{
     color: #F9FAF8;
 
 }
-header, .hero, .info, .action, .q_section, footer{
+header, .hero, .info, .q_section, .action, footer{
     width: 800px;
 }
 header{
@@ -28,13 +28,21 @@ header{
     padding: 10px 20px 20px 20px;
     box-sizing: border-box;
 }
-.action{
-
-}
 .q_section{
     background-color: #E5E7EB;
     padding: 10px 20px 20px 20px;
     box-sizing: border-box;
+}
+.action{
+    background-color: #3882F6;
+    padding: 10px 20px 20px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
 }
 /* Header/hero parts */
 .logo{
@@ -104,3 +112,22 @@ h2 {
     font-weight: bold;
 }
 /* Call to action parts */
+.call_container{
+    color: #F9FAF8;
+}
+.call_head{
+    font-weight: 600;
+    font-size: 18px;
+}
+.call_text{
+    font-weight: 300;
+}
+.sign_bottom{
+    color: #F9FAF8;
+    background-color: #3882F6;;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    height: 30px;
+}
